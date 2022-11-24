@@ -1,0 +1,2038 @@
+2022-03-30 22:04:00,404 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 22:13:44,720 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 22:22:08,242 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 22:35:09,398 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 22:37:11,031 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 22:50:08,675 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 22:50:33,600 - WARNING - info_parser.py[:24] - cookie错误或已过期,请按照README中方法重新获取
+2022-03-30 23:08:34,584 - ERROR - index_parser.py[:44] - list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 39, in get_user
+    self.user.weibo_num = string_to_int(user_info[0][3:-1])
+IndexError: list index out of range
+2022-03-30 23:08:34,632 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-30 23:08:34,634 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-30 23:08:34,634 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-30 23:08:34,635 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-30 23:08:34,635 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-30 23:08:34,635 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 20:46:34,369 - ERROR - index_parser.py[:44] - list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 39, in get_user
+    self.user.weibo_num = string_to_int(user_info[0][3:-1])
+IndexError: list index out of range
+2022-03-31 20:46:34,381 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:46:34,381 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 20:46:34,382 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:46:34,382 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:46:34,382 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:46:34,382 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 20:53:52,961 - ERROR - index_parser.py[:48] - list index out of range
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 39, in get_user
+    self.user.weibo_num = int(user_info[0][3:-1])
+IndexError: list index out of range
+2022-03-31 20:53:52,971 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:53:52,972 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 20:53:52,972 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:53:52,973 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:53:52,973 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:53:52,974 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 20:59:59,465 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:59:59,466 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 20:59:59,466 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:59:59,467 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:59:59,467 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 20:59:59,467 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:02:48,628 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:02:48,629 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:02:48,630 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:02:48,631 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:02:48,631 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:02:48,631 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:03:21,425 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:03:21,426 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:03:21,427 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:03:21,427 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:03:21,427 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:03:21,428 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:11:29,118 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:11:29,119 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:11:29,119 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:11:29,120 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:11:29,120 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:11:29,121 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:20:27,907 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:20:27,908 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:20:27,909 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:20:27,909 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:20:27,910 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:20:27,910 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:21:06,104 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:21:06,106 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:21:06,106 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:21:06,107 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:21:06,108 - ERROR - spider.py[:242] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 226, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:21:06,109 - ERROR - spider.py[:330] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 313, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:44:26,531 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:44:26,536 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:44:26,538 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:44:26,539 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:44:26,540 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:44:26,541 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:48:57,251 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:48:57,253 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:48:57,253 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:48:57,254 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:48:57,254 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:48:57,255 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 21:56:35,595 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:56:35,596 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 21:56:35,597 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:56:35,598 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:56:35,598 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 21:56:35,598 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:08:05,683 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:05,686 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:08:05,688 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:05,688 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:05,688 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:05,689 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:08:28,774 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:28,775 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:08:28,775 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:28,776 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:28,776 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:08:28,776 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:09:50,689 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:09:50,690 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:09:50,691 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:09:50,691 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:09:50,691 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:09:50,692 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:11:34,476 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:11:34,503 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:11:34,516 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:11:34,543 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:11:34,546 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:11:34,555 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:14:33,264 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:14:33,264 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:14:33,264 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:14:33,264 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:14:33,264 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:14:33,266 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:19:12,032 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:12,034 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:19:12,034 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:12,034 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:12,034 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:12,034 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:19:22,932 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:22,932 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:19:22,932 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:22,932 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:22,932 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:22,932 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:19:41,891 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:41,894 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:19:41,894 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:41,894 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:41,894 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:19:41,894 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:23:22,657 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:23:22,657 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:23:22,657 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:23:22,657 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:23:22,657 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:23:22,660 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-03-31 22:31:07,212 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:31:07,214 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-03-31 22:31:07,214 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:31:07,214 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:31:07,214 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-03-31 22:31:07,214 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 15:23:19,236 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:23:19,236 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 15:23:19,236 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:23:19,236 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:23:19,236 - ERROR - spider.py[:243] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 227, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:23:19,236 - ERROR - spider.py[:331] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 314, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 137, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 15:46:51,111 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:46:51,113 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 15:46:51,113 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:46:51,114 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:46:51,114 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 15:46:51,114 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:01:43,905 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:01:43,906 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 16:01:43,906 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:01:43,906 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:01:43,906 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:01:43,907 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:15:57,190 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:15:57,191 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 16:15:57,192 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:15:57,192 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:15:57,193 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:15:57,193 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:16:22,633 - ERROR - spider.py[:329] - name 'nickname' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 307, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 33, in get_user
+    self.user = InfoParser(self.cookie,user_id).extract_user_info()  # 获取用户信息
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\info_parser.py", line 13, in __init__
+    self.nickname=nickname#后加的
+NameError: name 'nickname' is not defined
+2022-04-01 16:24:18,577 - WARNING - info_parser.py[:25] - cookie错误或已过期,请按照README中方法重新获取
+2022-04-01 16:24:30,280 - WARNING - info_parser.py[:25] - cookie错误或已过期,请按照README中方法重新获取
+2022-04-01 16:25:19,249 - WARNING - info_parser.py[:25] - cookie错误或已过期,请按照README中方法重新获取
+2022-04-01 16:25:44,159 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:25:44,159 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 16:25:44,160 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:25:44,160 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:25:44,160 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:25:44,161 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:29:12,758 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:29:12,759 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 16:29:12,759 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:29:12,759 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:29:12,759 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:29:12,760 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:31:03,369 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:31:03,369 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 16:31:03,370 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:31:03,370 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:31:03,370 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:31:03,371 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:36:28,870 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:36:28,871 - ERROR - csv_writer.py[:30] - expected str, bytes or os.PathLike object, not NoneType
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    newline='') as f:
+TypeError: expected str, bytes or os.PathLike object, not NoneType
+2022-04-01 16:36:28,872 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:36:28,872 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:36:28,873 - ERROR - spider.py[:241] - 'NoneType' object has no attribute 'nickname'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 225, in _get_filepath
+    dir_name = self.user.nickname;
+AttributeError: 'NoneType' object has no attribute 'nickname'
+2022-04-01 16:36:28,873 - ERROR - spider.py[:329] - 'NoneType' object has no attribute '__dict__'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 312, in get_one_user
+    self.write_user(self.user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 135, in write_user
+    writer.write_user(user)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in write_user
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\txt_writer.py", line 29, in <listcomp>
+    [v + '：' + str(self.user.__dict__[k]) for k, v in self.user_desc])
+AttributeError: 'NoneType' object has no attribute '__dict__'
+2022-04-01 16:48:34,146 - ERROR - spider.py[:326] - 'IndexParser' object has no attribute 'weibo_num'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 304, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 38, in get_user
+    print(u'微博数: ', self.weibo_num)
+AttributeError: 'IndexParser' object has no attribute 'weibo_num'
+2022-04-01 16:49:52,187 - ERROR - spider.py[:326] - invalid literal for int() with base 10: '5088.3万'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 304, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 41, in get_user
+    self.user.followers = int(user_info[2][3:-1])
+ValueError: invalid literal for int() with base 10: '5088.3万'
+2022-04-01 16:50:31,795 - ERROR - spider.py[:326] - invalid literal for int() with base 10: '5088.3万'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 304, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 41, in get_user
+    self.user.followers = int(user_info[2][3:-1])
+ValueError: invalid literal for int() with base 10: '5088.3万'
+2022-04-01 17:09:12,118 - ERROR - spider.py[:326] - invalid literal for int() with base 10: '5088.3万'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 304, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 42, in get_user
+    self.user.followers = int(user_info[2][3:-1])
+ValueError: invalid literal for int() with base 10: '5088.3万'
+2022-04-01 17:11:45,568 - ERROR - spider.py[:326] - Counting type should be in ['low', 'mid', 'high'] (<class 'int'> provided).
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 304, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 42, in get_user
+    self.user.followers = pycnnum.cn2num(user_info[2][3:-1],int)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\pycnnum\pycnnum.py", line 235, in cn2num
+    system = create_system(numbering_type)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\pycnnum\pycnnum.py", line 142, in create_system
+    larger_units = [CNU.create(i, v, numbering_type, False) for i, v in enumerate(all_larger_units)]
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\pycnnum\pycnnum.py", line 142, in <listcomp>
+    larger_units = [CNU.create(i, v, numbering_type, False) for i, v in enumerate(all_larger_units)]
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\pycnnum\pycnnum.py", line 78, in create
+    'Counting type should be in {0} ({1} provided).'.format(NUMBERING_TYPES, numbering_type))
+ValueError: Counting type should be in ['low', 'mid', 'high'] (<class 'int'> provided).
+2022-04-01 17:13:19,489 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:13:19,489 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:14:02,999 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:14:02,999 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:14:48,992 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:14:48,992 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:15:14,274 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:15:14,274 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:15:36,739 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:15:36,739 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:16:07,328 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:16:07,328 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:18:41,512 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:18:41,512 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:18:54,794 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:18:54,794 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:19:21,618 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:19:21,618 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:20:24,643 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 17:20:24,643 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 17:21:42,925 - ERROR - util.py[:45] - HTTPSConnectionPool(host='weibo.cn', port=443): Max retries exceeded with url: /2706896955?page=16 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002B906C4CB38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\util\connection.py", line 56, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\ADDWATER\Anaconda3\lib\socket.py", line 748, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 343, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 849, in _validate_conn
+    conn.connect()
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connection.py", line 314, in connect
+    conn = self._new_conn()
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.VerifiedHTTPSConnection object at 0x000002B906C4CB38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='weibo.cn', port=443): Max retries exceeded with url: /2706896955?page=16 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002B906C4CB38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 25, in handle_html
+    resp = requests.get(url, headers=headers)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\requests\api.py", line 76, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='weibo.cn', port=443): Max retries exceeded with url: /2706896955?page=16 (Caused by NewConnectionError('<urllib3.connection.VerifiedHTTPSConnection object at 0x000002B906C4CB38>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+2022-04-01 17:21:42,925 - ERROR - spider.py[:216] - 'NoneType' object has no attribute 'xpath'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 175, in get_weibo_info
+    self.user_config, page, self.filter).get_one_page(
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 45, in __init__
+    info = self.selector.xpath("//div[@class='c']")
+AttributeError: 'NoneType' object has no attribute 'xpath'
+2022-04-01 19:39:06,806 - ERROR - spider.py[:326] - 当前为strict模式，输入的数据不在转化范围内：5！
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 304, in get_one_user
+    self.get_user_info(user_config['user_uri'])
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\spider.py", line 139, in get_user_info
+    self.user = IndexParser(self.cookie, user_uri).get_user()
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\index_parser.py", line 42, in get_user
+    self.user.followers = int(cn2an.cn2an(user_info[2][3:-1]))
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\cn2an\cn2an.py", line 53, in cn2an
+    sign, integer_data, decimal_data, is_all_num = self.__check_input_data_is_valid(inputs, mode)
+  File "C:\Users\ADDWATER\Anaconda3\lib\site-packages\cn2an\cn2an.py", line 151, in __check_input_data_is_valid
+    raise ValueError(f"当前为{mode}模式，输入的数据不在转化范围内：{data}！")
+ValueError: 当前为strict模式，输入的数据不在转化范围内：5！
+2022-04-01 19:41:14,336 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:41:14,336 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:41:23,435 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:41:23,435 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:41:40,452 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:41:40,452 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:41:47,932 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:41:47,932 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:42:06,645 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:42:06,645 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:42:12,001 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:42:12,002 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:42:32,154 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:42:32,154 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:42:39,681 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:42:39,681 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:42:42,208 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:42:42,208 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:42:50,464 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:42:50,467 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:43:04,747 - ERROR - csv_writer.py[:46] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 41, in write_weibo
+    newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-01 19:43:05,803 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:43:05,803 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:43:06,541 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:43:06,541 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:43:07,203 - ERROR - csv_writer.py[:46] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 41, in write_weibo
+    newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-01 19:44:54,101 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:44:54,101 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:45:58,726 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:45:58,726 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:47:17,998 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:47:17,998 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:48:03,753 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:48:03,753 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:48:21,560 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:48:21,561 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:48:24,131 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:48:24,132 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:48:46,254 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:48:46,254 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:48:46,898 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:48:46,899 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:51:18,464 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:51:18,464 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:51:53,299 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:51:53,300 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:51:53,776 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:51:53,777 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:51:54,156 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:51:54,156 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:55:30,932 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:55:30,933 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 19:55:31,142 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 19:55:31,143 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:04:44,441 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:04:44,441 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:06:09,534 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:06:09,534 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:06:10,877 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:06:10,877 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:12:48,314 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:12:48,315 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:15:26,829 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:15:26,829 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:16:55,590 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:16:55,590 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:20:45,816 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:20:45,816 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:21:42,862 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:21:42,862 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:24:28,308 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:24:28,308 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:25:47,611 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:25:47,611 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-01 20:50:10,684 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-01 20:50:10,684 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:40:26,746 - ERROR - csv_writer.py[:30] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 26, in __init__
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:40:37,981 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:40:37,981 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:40:38,303 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:40:40,576 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:40:40,577 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:40:40,863 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:40:42,218 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:40:44,468 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:40:44,468 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:40:44,748 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:40:46,047 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:40:46,048 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:40:46,363 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:41:03,837 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:41:03,837 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:41:04,717 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:41:04,718 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:41:20,300 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:41:20,301 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:41:30,866 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:41:30,866 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:41:32,017 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:41:32,017 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:41:58,175 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:41:58,177 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:03,596 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:03,596 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:04,244 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:04,244 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:07,068 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:07,069 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:08,732 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:08,733 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:20,368 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:20,368 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:22,837 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:22,837 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:34,255 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:34,255 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:34,819 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:34,820 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:35,923 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:35,923 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:40,490 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:40,491 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:42:53,825 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:42:53,825 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:06,737 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:06,738 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:06,984 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:06,985 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:07,263 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:07,263 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:08,382 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:08,382 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:08,681 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:08,681 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:26,859 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:26,859 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:29,505 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:29,505 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:30,109 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:30,109 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:43:49,926 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:43:49,927 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:11,259 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:11,259 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:15,418 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:26,072 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:26,073 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:26,846 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:28,524 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:36,121 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:38,355 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:42,096 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:46,196 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:46,196 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:46,206 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:46,806 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:53,525 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:53,526 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:53,703 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:53,704 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:53,876 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:53,877 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:54,166 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:54,166 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:54,358 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:54,359 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:54,368 - ERROR - csv_writer.py[:45] - [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\writer\csv_writer.py", line 40, in write_weibo
+    with open(self.file_path, 'a', encoding='utf-8-sig',newline='') as f:
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\ADDWATER\\Desktop\\weiboSpider\\weibo_spider\\weibo\\努力努力再努力x的资料\\2706896955.csv'
+2022-04-03 20:44:55,499 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:55,500 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:55,810 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:55,810 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:55,978 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:55,979 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
+2022-04-03 20:44:56,944 - WARNING - util.py[:101] - 当前账号没有浏览该视频的权限
+2022-04-03 20:44:56,944 - ERROR - page_parser.py[:298] - local variable 'video_url' referenced before assignment
+Traceback (most recent call last):
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\page_parser.py", line 296, in get_video_url
+    video_url = to_video_download_url(self.cookie, video_page_url)
+  File "C:\Users\ADDWATER\Desktop\weiboSpider\weibo_spider\parser\util.py", line 103, in to_video_download_url
+    return video_url
+UnboundLocalError: local variable 'video_url' referenced before assignment
