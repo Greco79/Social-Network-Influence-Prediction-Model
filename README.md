@@ -1,9 +1,15 @@
 
 
-# Social Network Model
+# Social Network Influence Prediction Model
 
 
-This paper establishes the user influence prediction model, and further divides the work roughly into data set acquisition, model building and experimental results evaluation. 
+This project builds a user influence prediction model within a social network environment. The workflow includes:
+
+1. Dataset acquisition
+
+2. Model construction
+
+3. Experimental evaluation 
 
 Table of content
 - [Social Network Model](#social-network-model)
@@ -19,7 +25,11 @@ Table of content
 
 ## Usage
 - - -
-There are four parts in the document. Database establishment is in file named Weibo, which can be downloaded merely for web crawler. The other parts: process data, set up model and analysis are included in model.zip.
+The project consists of four core components:
+
+- The database setup is located in the Weibo folder and is intended for web crawling.
+
+- The remaining parts—data preprocessing, model training, and result analysis—are provided in model.zip.
 
 
 ## Built With
@@ -29,40 +39,62 @@ The whole project is built with PyTorch 0.4.0.
 
 ### Database Setup
 - - -
-After downloading Weibo, the folder contains three parts: 
-- parser : use web crawler to search required information on Weibo.
-- writer : write the data in needed form.
-- weibo ：contain all the raw information.
+After downloading the Weibo dataset, the folder includes:
+- parser/ : Web crawler scripts for collecting information from Weibo
+- writer/ : Data transformation scripts for formatting
+- weibo/ ：Raw collected data
 
-If you would like to choose other database, you could choose from:
+Alternative public datasets you can experiment with:
 * [Digg dataset](https://www.isi.edu/~lerman/downloads/digg2009.html)
 * [Twitter dataset](https://snap.stanford.edu/data/higgs-twitter.html)
 * [OAG dataset](https://www.openacademic.ai/oag/)
 * [Weibo dataset](https://www.aminer.cn/influencelocality)
 
 
-### Process Data
+### Data Processing
 - - -
-Process data to get the information specialize in social network, like features inluding
-- deepwalk
-- adjacency_matrix
-- label
-- vertex_feature
+Processed data includes key features for social network analysis:
+
+- deepwalk — Node embeddings
+
+- adjacency_matrix — Graph structure
+
+- label — Influence labels for supervised learning
+
+- vertex_feature — Additional node-level attributes
 
 
-### Modified [Deepinf][1] Model
+### Modified DeepInf Model
 - - -
-This document establishes the social network influence prediction model, divided into network embedding layer, instance regularization layer, input layer, graph convolution layer and output layer.
+The influence prediction model follows a deep graph-based architecture consisting of:
+
+- Network Embedding Layer
+
+- Instance Regularization Layer
+
+- Input Layer
+
+- Graph Convolution Layer
+
+- Output Layer
+
+This architecture is a modified implementation of the DeepInf model.
 
 
 ### Anaylysis
 - - -
-The document analysed and compared the results with LR,SVM and PSCN. 
-The results will be collected and shown in table in four aspects:
-- AUC(Area Under Curve) : Area under ROC curve with FPR as horizontal axis and TPR as vertical axis
-- Prec(Precision)
-- Rec(Recall)
-- F1-value : the harmonic mean of accuracy and recall rate, which is jointly determined by Prec and Rec
+Model performance is evaluated against classic baselines including Logistic Regression (LR), SVM, and PSCN.
+Evaluation metrics include:
+
+- AUC (Area Under Curve) – ROC curve performance
+
+- Precision (Prec) – True positive rate among predicted positives
+
+- Recall (Rec) – True positive rate among actual positives
+
+- F1-Score – Harmonic mean of precision and recall
+
+All results are organized into tables for comparison.
 
 
 
