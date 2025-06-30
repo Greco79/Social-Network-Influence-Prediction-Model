@@ -110,6 +110,3 @@ If you'd like to request a new function, feel free to do so by opening an issueÂ
 [1]:https://arxiv.org/abs/1807.05560
 [2]:https://github.com/Greco79/bishe/issues
 
-
-## License
-MIT
